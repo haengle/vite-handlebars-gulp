@@ -1,0 +1,34 @@
+{
+	"name": "vite-handlebars-gulp-build",
+	"version": "4.0.26",
+	"description": "Generates a static site",
+	"type": "module",
+	"scripts": {
+		"dev": "export IS_LOCAL=true && vite",
+		"build": "vite build",
+		"preview": "vite build && vite preview"
+	},
+	"dependencies": {
+		"@namics/stylelint-bem": "^10.0.0",
+		"@vituum/vite-plugin-handlebars": "^1.1.0",
+		"axios": "^1.6.2",
+		"eslint": "^8.57.0",
+		"glob": "^10.3.10",
+		"gulp": "^4.0.2",
+		"gulp-handlebars-file-include": "^1.0.0",
+		"gulp-hash": "^4.2.2",
+		"gulp-replace": "^1.1.4",
+		"gulp-tap": "^2.0.0",
+		"lodash.merge": "^4.6.2",
+		"lodash.mergewith": "^4.6.2",
+		"sass": "^1.69.5",
+		"stylelint": "^16.6.1",
+		"stylelint-config-standard-scss": "^13.1.0",
+		"stylelint-order": "^6.0.4",
+		"vite": "^5.0.0",
+		"vite-plugin-eslint": "^1.8.1",
+		"vite-plugin-static-copy": "^1.0.0",
+		"vite-plugin-stylelint": "^5.3.1",
+		"vituum": "^1.1.0"
+	}
+}
